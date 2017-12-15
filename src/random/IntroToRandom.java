@@ -23,7 +23,7 @@ public class IntroToRandom {
 		//4. Limit the random number between 25 and 75. Hint: (highest value - lowest value) + lowest value
 		r=new Random().nextInt(50)+25;
 		//5. Challenge: Limit the random number between -222 and 88
-		r=new Random().nextInt(134)-222;
+		r=new Random().nextInt(222+88)-222;
 
 		
 		System.out.println(r); 
